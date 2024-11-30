@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título */
+.contact-header h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: 150px;
+
+}
+
+/* Opções de contato */
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  margin-top: 20px;
+
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 5px;
+  width: 300px;
+  justify-content: start;
+  color: white;
+
+}
+
+.icon-placeholder {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 50%;
+  color: white;
+
+}

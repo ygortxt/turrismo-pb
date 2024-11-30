@@ -1,0 +1,52 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título */
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+/* Galeria */
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+/* Colunas */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilos para Imagens */
+.image-item {
+  text-align: center;
+  color: white;
+
+}
+
+.image-item img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: white;
+
+}
+
+.image-item p {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+
+}

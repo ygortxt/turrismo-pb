@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS para a página inicial e passeios */
+body {
+  background: linear-gradient(to right, red, black);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+
+
+.page-title {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.add-to-cart {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
